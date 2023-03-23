@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// create the array of teams
+// this will become an API call soon once we learn how to do that :)
 const teams = [
   {"tid": 159, "cid": 0, "did": 0, "school": "Boston College", "name": "Eagles", "abbrev": "BC", "pop": 161, "city": "Chestnut Hill", "state": "MA", "latitude": 42.330, "longitude": -71.166},
   {"tid": 105, "cid": 0, "did": 0, "school": "Clemson", "name": "Tigers", "abbrev": "CLEM", "pop": 215, "city": "Clemson", "state": "SC", "latitude": 34.678, "longitude": -82.839},
@@ -325,6 +327,7 @@ const teams = [
   {"tid": 287, "cid": 19, "did": 39, "school": "Houston Baptist", "name": "Huskies", "abbrev": "HBU", "pop": 33, "city": "Greater Sharpstown", "state": "TX", "latitude": 29.694 , "longitude": -95.515}  
 ]
 
+// Create the title & heading
 function Welcome() {
   return(
     <div>
@@ -334,6 +337,8 @@ function Welcome() {
   );
 }
 
+// class to display just the school names in the list
+// probably not necessary, but this seemed like the easiest way to me to do this
 class SchoolName extends React.Component <{school: string}> {
   render() {
     const oneSchool = this.props;
@@ -348,6 +353,7 @@ class SchoolName extends React.Component <{school: string}> {
   }
 }
 
+// outputs the info for school, mascot, city, and state
 class Team extends React.Component<{ school: string, name: string, city: string, state: string}> {
   render() {
     const oneTeam = this.props;
@@ -362,6 +368,7 @@ class Team extends React.Component<{ school: string, name: string, city: string,
   }
 }
 
+// returns the info for each team
 function TeamInfo() {
   return(
     <div>
@@ -370,6 +377,7 @@ function TeamInfo() {
   );
 }
 
+// returns an unordered list of just the team names
 function TeamList() {
   return(
     <div>
@@ -379,6 +387,7 @@ function TeamList() {
   )
 }
 
+// main function
 function App() {
   return (
     <div className="App">
@@ -394,9 +403,8 @@ function App() {
             <TeamInfo></TeamInfo>
           </div>
         </div>
-       
         
-        
+        {/* Probably will delete this stuff later, but it's fun for now */}
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
