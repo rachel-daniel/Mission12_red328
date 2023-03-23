@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "t0Ciwe6TEnspOcYmSK9k5iavBiUVdtSq/OcGNoOH8lyBmUpgvhkHsLjW6L9H7mqdM6A50i4qJNc2G0iVr6n6Cg==",
+  "success": true,
+  "projectFilePath": "/Users/racheldaniel/BYU/Winter2023/IS413/Mission12_red328/backend/Mission12_red328/Mission12_red328.csproj",
+  "expectedPackageFiles": [
+    "/Users/racheldaniel/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/racheldaniel/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/racheldaniel/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/racheldaniel/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/racheldaniel/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/racheldaniel/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
